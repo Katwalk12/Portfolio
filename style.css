@@ -44,15 +44,22 @@ ul{
     display: block;
     padding: 0 30px;
     opacity: 1;
-    position: fixed;
+    position:fixed;
     left: 270px;
-    top: 0;
+    top:0 ;
     right: 0;
     bottom: 0;
     z-index: 0;
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
+}
+h6
+{
+    flex: 0 0 100%;
+    position: absolute;
+    margin-top: 500px;
+    color: var(--skin-color);
 }
 .section.back-section
 {
@@ -660,6 +667,7 @@ h3.my-profession
 }
 .portfolio .portfolio-item-inner
 {
+    margin-top: 20px;
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
@@ -667,6 +675,7 @@ h3.my-profession
 }
 .portfolio .portfolio-item-inner .portfolio-img img
 {
+
     width: 100%;
     display: block;
 
