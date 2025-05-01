@@ -58,8 +58,10 @@ h6
 {
     flex: 0 0 100%;
     position: absolute;
-    margin-top: 500px;
+    margin-top: 700px;
     color: var(--skin-color);
+    font-size: 15px;
+    
 }
 .section.back-section
 {
@@ -675,10 +677,10 @@ h3.my-profession
 }
 .portfolio .portfolio-item-inner .portfolio-img img
 {
-
-    width: 100%;
-    display: block;
-
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
 }
 /* Contact */
 .contact-title
@@ -831,7 +833,7 @@ h3.my-profession
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
-    .service .service-item,
+    .ervice .service-item,
     .about .about-content .seminar,
     .about .about-content .experience,
     .about .about-content .education,
