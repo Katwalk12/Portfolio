@@ -90,3 +90,24 @@ const nav = document.querySelector(".nav"),
                 allSection[i].classList.toggle("open");
             }
         }
+
+        const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modalImg");
+const captionText = document.getElementById("caption");
+
+document.querySelectorAll(".zoom-img").forEach(img => {
+    img.onclick = () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+        captionText.innerHTML = img.alt;
+    }
+});
+
+// Close modal
+document.querySelector(".close").onclick = () => {
+    modal.style.display = "none";
+};
+
+modal.onclick = () => {
+    modal.style.display = "none";
+};
