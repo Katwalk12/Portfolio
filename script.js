@@ -1,4 +1,4 @@
-/* ======================= Typing Animation ===================*/
+/* ======================= Typing Animation ==================*/
 var typed = new Typed(".typing", {
     strings:["Web Developer", "Web Designer", "Graphic Designer", "Freelancer"],    
     typeSpeed:100,
@@ -111,3 +111,4 @@ document.querySelector(".close").onclick = () => {
 modal.onclick = () => {
     modal.style.display = "none";
 };
+
